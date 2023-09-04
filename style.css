@@ -1,30 +1,26 @@
-:root {
-   --cor-de-fundo:#EBECEE;
-   }
-   body {
-       background-color: var(--cor-de-fundo);
-       }
+@import url("styles/header.css");
+@import url("banner.css");
+@import url("styles/carrossel.css");
+@import url("styles/topicos.css");
+@import url("styles/contato.css");
+@import url("styles/rodape.css");
 
-      {
-        background-color: white;
-        }
-         @import url("styles/header.css");
-         
-         :root {
-          --cor-de-fundo: #EBECEE;
-          --branco: #FFFFFF;
-    }
-    :root {
-      --cor-de-fundo: #EBECEE;
-      --branco: #FFFFFF;
-      --laranja: #EB9B00;
-    }
-    <head>
-            <meta charset="UTF_8">
-            <meta name="viewport" content="width=device-width,initial-scale=0.1">
-            <title>AluraBooks</tittle>
-            <link rel="stylesheet" href="styles.css">
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <
-   
-    
+:root {
+    --cor-de-fundo: #1900ff;
+    --branco: #FFFFFF;
+    --vermelho: #ff0000;
+    --laranja-degrade: linear-gradient(97.54deg, #0004ff 35.49%, #0905ff 165.37%);
+    --fonte-principal: "Poppins";
+    --azul: #0091ff;
+} 
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+
+
